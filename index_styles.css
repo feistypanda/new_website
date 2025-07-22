@@ -1,0 +1,35 @@
+/*
+Background: #F9F9F9 (white)
+
+Text: #1A1A1A (dark gray)
+
+Primary Accent: #4F46E5 (indigo)
+
+Secondary Accent: #E0E7FF (light indigo)
+
+Border/Muted: #E5E7EB (light gray) 
+
+*/
+
+/* color pallete */
+:root {
+	--background-color: #F9F9F9; /* white */
+	--text-color: #1A1A1A; /* dark gray */
+	--primary-accent: #4F46E5; /* indigo */
+	--secondary-accent: #E0E7FF; /* light indigo */
+	--muted-color: #E5E7EB; /* light gray */
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+#title_container {
+
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	background-color: var(--primary-accent);
+}
