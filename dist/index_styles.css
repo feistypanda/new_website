@@ -26,10 +26,18 @@ body {
 
 #title_container {
 
-	width: 100vw;
 	position: fixed;
 	top: 0;
 	left: 0;
-	
-	background-color: var(--primary-accent);
+
+	padding-top: 8rem;
+	padding-left: 8rem;
+	padding-bottom: 8rem;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 6rem;
+	color: var(--text-color);
+	font-weight: bold;
+
+	/*background-color: var(--text-color);*/
 }
