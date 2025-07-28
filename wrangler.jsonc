@@ -1,7 +1,13 @@
 {
-  "name": "my-website",
-  "compatibility_date": "2025-07-22",
-  "assets": {
-    "directory": "./dist",
-  }
+    "name": "my-website",   
+    "compatibility_date": "2025-07-22",
+    "assets": {
+        "directory": "./dist",
+    },
+    "kv_namespaces": [
+        {
+            "binding": "TEST_CLICK_COUNTER",
+            "id": "f8716e8e36e04197a8403d537756f8d4"
+        }
+    ],
 }
